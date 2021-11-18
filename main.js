@@ -10,7 +10,7 @@ function sum_of_first_n_numbers(n) {
   return sum;
 }
 
-// This function
+// This function multiplies two variables
 function product(a, b) {
     return a*b;
 
