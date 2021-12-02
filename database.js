@@ -5,7 +5,7 @@ let connection =  mysql.createConnection({
     user: "fintechlab",
     password: "FinTechLab",
     port: 12865,
-    database: "fintechbackendstub"
+    database: "b14_grabbuddy"
 })
 connection.connect((errors) => {
     if (errors) console.log(errors);

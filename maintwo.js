@@ -1,14 +1,13 @@
 const express = require("express");
 
-const user_mapping = require("./mappings/user");
-const account_mapping = require("./mappings/account");
+const user_mapping = require("./mappings/users");
 
 let server = express();
 
 server.use(express.json()); //make json parser to parse post request
 
 server.use(user_mapping.router);
-server.use(account_mapping.router);
+
 
 server.listen(3000, (error) => {
   if (error) {
